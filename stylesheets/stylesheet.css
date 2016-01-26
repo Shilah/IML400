@@ -441,17 +441,18 @@ p {
 }
 
 a {
-  color: #2879d0;
+  color: white;
 }
 a:hover {
-  color: #2268b2;
+  color: #383838;
+  font-size: 74px;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background: #2e7bcf url(../images/Explosion.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
@@ -534,7 +535,7 @@ header a.button {
   position: absolute;
   top: 0;
   right: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+  background: transparent url(../images/Explosion.jpg) 0 0 no-repeat;
 }
 aside a.button {
   display: block;
@@ -542,7 +543,7 @@ aside a.button {
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
+  background: transparent url(../images/Fire.jpg) 0 0 no-repeat;
 }
 
 code, pre {

@@ -134,7 +134,7 @@ dfn {
 
 h1 {
   margin: 0.67em 0;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /**
@@ -527,6 +527,23 @@ a.button {
   line-height: 1.2;
   color: #fff;
 }
+
+a.secondButton
+{
+  width: 134px;
+  height: 58px;
+  padding-top: 15px;
+  padding-left: 68px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #fff;
+position: absolute;
+  top: 0;
+  right: 8em;
+  background: transparent url(../images/Explosion.jpg) 0 0 no-repeat;
+}
+
 a.button small {
   display: block;
   font-size: 11px;

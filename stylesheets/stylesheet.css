@@ -433,19 +433,30 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  background-color: white;
+ /* background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;*/
 }
 
 p {
   margin-top: 0;
 }
 
-a {
+h1 a {
   color: white;
 }
-a:hover {
+h1 a:hover {
   color: #383838;
   font-size: 74px;
+}
+
+h3 a: {
+  color: black;
+  font-size:3em;
+}
+
+h3 a:hover {
+  color: darkred;
+  font-size:1.5em;
 }
 
 header {

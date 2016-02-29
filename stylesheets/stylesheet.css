@@ -433,7 +433,10 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #666;
-  background-color: white;
+  background-color: #232323;
+  /*background-image: url(../images/Text.png);
+  background-size: min-width:1024px, min-height:100%, width:100%, height:auto, posion:fixed, top:0, left:0;
+  background-repeat: none;*/
  /* background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;*/
 }
 
@@ -502,7 +505,15 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 750px;
+   margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  margin: 8%;
+  font-weight: bold;
+  color: #000000;
 }
 
 #main-content img {

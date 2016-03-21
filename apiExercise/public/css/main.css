@@ -1,0 +1,33 @@
+body {
+    margin-left: 1em;
+    background: darkred;
+}
+
+#results {
+    margin-top: 2em;
+    margin-left: 1em;
+    background: aliceblue;
+}
+
+#debug_info {
+    background: goldenrod;
+}
+
+.photo {
+    background: gray;
+    margin: 1em 0em;
+    padding: 5px;
+    max-width: 200px;
+}
+
+.photo.good {
+    color: beige;
+}
+
+.photo.ok {
+    color: azure;
+}
+
+.photo.soso {
+    color: darkgray;
+}
